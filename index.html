@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="dark-theme">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logo.png" alt="Electronics Shop Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<section class="featured-products dark-theme">
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Electro Mobile phone </h3>
+            <p>Midranged smartphone with amazing features</p>
+            <span>&#8377 15000</span>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Electro Washing machine</h3>
+            <p>High power washing machine for all your washing needs</p>
+            <span>&#8377 30000</span>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section class="services dark-theme">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+            <i class="fas fa-tools"></i>
+            <h3>Repair Services</h3>
+            <p>We offer expert repair services for all types of electronic devices.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-cogs"></i>
+            <h3>Installation</h3>
+            <p>Professional installation services for home electronics and appliances.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-headset"></i>
+            <h3>Technical Support</h3>
+            <p>24/7 technical support to assist with any issues or questions.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about-us dark-theme">
+    <div class="container">
+        <h2>About Us</h2>
+        <p></p>
+    </div>
+</section>
+
+<footer class="dark-theme">
+    <div class="container">
+        <p>Contact us: info@electronicsshop.com</p>
+        <ul class="social-links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

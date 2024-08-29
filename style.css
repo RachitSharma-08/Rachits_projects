@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme .logo img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.dark-theme nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dark-theme nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.dark-theme nav ul li a {
+  color: #fff;
+  text-decoration: solid;
+  font-size: larger;
+  
+}
+
+.dark-theme nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.dark-theme .product, .dark-theme .service, .dark-theme .about-us {
+  background-color: #444;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dark-theme .product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.dark-theme .service i {
+  font-size: 3em;
+}
+
+.dark-theme footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.dark-theme .social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.dark-theme .social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.dark-theme .social-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dark-theme .social-links li a:hover {
+  color: #ffcc00;
+}
+
+.menu{
+  padding: 100px;
+}
